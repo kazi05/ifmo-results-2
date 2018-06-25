@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Потребительская корзина</title>
+    <link rel="stylesheet" href="public/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  </head>
+  <body>
+    <h4 id="author">Гаджиев Казим</h4>
+    <h3>
+      Бюджет: &#36;<span class="budget-value"></span>
+    </h3>
+    <section class="main">
+      <div class="goods-block">
+        <div id="good-item-1" class="goods-item" draggable="true">
+          <div class="goods-image">
+            <img src="public/img/product-preview.png" alt="" draggable="false">
+          </div>
+          <p>Товар №1</p>
+          <span>&#36;10</span>
+        </div>
+        <div id="good-item-2" class="goods-item" draggable="true">
+          <div class="goods-image">
+            <img src="public/img/product-preview.png" alt="" draggable="false">
+          </div>
+          <p>Товар №2</p>
+          <span>&#36;20</span>
+        </div>
+        <div id="good-item-3" class="goods-item" draggable="true">
+          <div class="goods-image">
+            <img src="public/img/product-preview.png" alt="" draggable="false">
+          </div>
+          <p>Товар №3</p>
+          <span>&#36;30</span>
+        </div>
+        <div id="good-item-4" class="goods-item" draggable="true">
+          <div class="goods-image">
+            <img src="public/img/product-preview.png" alt="" draggable="false">
+          </div>
+          <p>Товар №4</p>
+          <span>&#36;40</span>
+        </div>
+        <div id="good-item-5" class="goods-item" draggable="true">
+          <div class="goods-image">
+            <img src="public/img/product-preview.png" alt="" draggable="false">
+          </div>
+          <p>Товар №5</p>
+          <span>&#36;50</span>
+        </div>
+        <div id="good-item-5" class="goods-item" draggable="true">
+          <div class="goods-image">
+            <img src="public/img/product-preview.png" alt="" draggable="false">
+          </div>
+          <p>Товар №6</p>
+          <span>&#36;60</span>
+        </div>
+      </div>
+      <div class="basket-block">
+        <h3>Корзина</h3>
+        <div class="drop-text">
+          <div class="drop-text-cell">
+            <p>Перетащите товары сюда</p>
+            <img src="public/img/into-inbox-symbol.png" alt="">
+          </div>
+        </div>
+        <div class="basket-goods">
+          <ul>
+            <!-- <li class="basket-item">
+              <div class="basket-image">
+                <img src="public/img/product-preview.png" alt="" draggable="false">
+              </div>
+              <div class="basket-name">
+                <p>Товар №1</p>
+              </div>
+              <div class="basket-price">
+                <span>&#36;10</span>
+                <p class="basket-item-count">1</p>
+              </div>
+              <div class="delete-basket">
+                <div>
+                  <a href="#">
+                    <img src="public/img/delete.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+        <h3 class="basket-footer">
+          Осталось на счету: &#36;<span class="budget-balance"></span>
+        </h3>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="./public/js/main.js">
+
+    </script>
+  </body>
+</html>
